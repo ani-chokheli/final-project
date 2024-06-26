@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font- awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">   ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="contact-header">
+        <nav>
+            <a href="index.html"><img src="../image/tbc-logo (1).png" alt=""></a>
+            <div  class="nav-link" id="navlink" >
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="../index.html">მთავარი</a></li>
+                        <li> <a href="news.html"> სიახლე </a></li>
+                        <li><a href=""> ჩვენს შესახებ</a></li>
+                        <li> <a href="">კონტაქტი</a></li>
+                       
+                        
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>კონტაქტი</h1>
+      
+
+    </header>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d381804.3433274072!2d44.191506002146845!3d41.61583237581408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40438c8e22f9b1b1%3A0xcf62ce7ba9ec6f5c!2z4YOX4YOU4YOX4YOg4YOY4YOs4YOn4YOQ4YOg4YOd4YOhIOGDm-GDo-GDnOGDmOGDquGDmOGDnuGDkOGDmuGDmOGDouGDlOGDouGDmA!5e0!3m2!1ska!2sge!4v1719347871283!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+
+    </section>
+    <section  class="contactus">
+        <div class="row">
+            <div class="contact1">
+                <div>
+                    <img class=" fa-solid" src="../image/home.png" alt="">
+                    <span>
+                        <h4> მისამართი</h4>
+                        <p>თბილისთან ახლოს </p>
+                    </span>
+                </div>
+                <div>
+                    <img class=" fa-solid" src="../image/telephone.png " alt="">
+                    <span>
+                        <h4>+ 1234567890</h4>
+                        <p>9 სთ-დან 20 სთ-მდე </p>
+                    </span>
+                </div>
+                <div>
+                    <img class=" fa-solid" src="../image/email.png" alt="">
+                    <span>
+                        <h4> tetritskaro@gmail.com</h4>
+                        <p>მოგვწერეთ  </p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact1">
+                <form action="">
+                    <input type="text" placeholder=" შეიყვნე სახელი" required>
+                    <input type="text" placeholder=" შეიყვნე გვარი" required>
+                    <input type="email" placeholder=" შეიყვნე ემაილი" required>
+                    <textarea  rows="10" placeholder="წერილი" required ></textarea>
+                    <button type="submit" class="DIV-A news-a ">  გაგზავნეთ წერილი</button>
+            </div>
+                   
+
+                </form>
+
+            </div>
+
+        </div>
+    
+
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>ჩვენს შესახებ</h3>
+                <p>ჩვენი კომპანია ცდილობს ყოველთვის ვიყოთ თქვენი საუკეთესო არჩევანი.</p>
+                <div class="social-icons">
+                    <a href="#"><img src="../image/facebook.png" alt=""></a>
+                    <a href="#"><img src="../image/instagram.png" alt=""></a>
+                    <a href="#"> <img src="../image/twitter.png" alt="">  </a>
+                    <a href="#"><img src="../image/linkedin.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>სწრაფი ბმულები</h3>
+                <ul>
+                    <li><a href="../index.html">მთავარი</a></li>
+                    <li><a href="news.html">სიახლე</a></li>
+                    <li><a href="about.html">ჩვენს შესახებ</a></li>
+                    <li><a href="contact.html">კონტაქტი</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h3>დაგვიკავშირდით</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" class="text-input contact-input input-1" placeholder="თქვენი ელ. ფოსტა...">
+                    <textarea name="message" rows="1" class="text-input contact-input textarea-1" placeholder="თქვენი შეტყობინება..."></textarea>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 ყველა უფლება დაცულია.
+        </div>
+    </footer>
+
+    
+    
+    <script>
+        var navlink=document.getElementById("navlink")
+        function showMenu(){
+            navlink.style.right="0";
+        
+        }
+        function hideMenu(){
+            navlink.style.right="-210px";
+        
+        }
+    </script>
+    
+</body>
+</html>
