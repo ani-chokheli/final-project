@@ -138,6 +138,7 @@ h3{
 .row-img img{
     width: 100%;
     display: block;
+    height: 230px;
 }
 .place{
     background:transparent;
@@ -413,7 +414,7 @@ footer {
 
 }
 .about-us p{
-    font-size: 12px;
+    font-size: 15px;
     color: #665;
     margin-bottom: 35px;
 }
@@ -422,7 +423,7 @@ footer {
     margin: 0 auto;
     padding: 10px 20px;
 }
-.about{
+.about1{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -448,14 +449,258 @@ footer {
     flex: 1;
    
 }
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #665;
 
+}
+.about-content  .read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+.about-content .read-more:hover{
+    background-color: #1a3a1a;
+}
+.abelia-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/abelia.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+.abelia-header h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+
+.asureti-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/asureti.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+.asureti-header h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+
+.didgori-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/didgoris-monumenti.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+
+.didgori-header  h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+
+.xulutis-cixe-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/khuluti.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.xulutis-cixe-header   h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+
+.fitaretis-monasteri-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/pitareti-monastery-9.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.fitaretis-monasteri-header  h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+.birtvisi-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/birtvisis-tsikhis-kompleksi-birtvisi-fortress-6.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+.birtvisi-header  h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+.ghoubnis-ormotsni-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/ghoubnis-ormotsni-3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+.ghoubnis-ormotsni-header h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+.algeti-national-park-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/algeti-national-park.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+.algeti-national-park-header h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+.manglisis-sioni-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/manglisis-sioni-manglisi-sioni.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+.manglisis-sioni-header h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+.gudarekhis-monasteri-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/gudarekhis-monasteri-8.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+.gudarekhis-monasteri-header h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+.kabenis-monaster-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/kabeni.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+
+.kabenis-monaster-header h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
+.fartskhisis-tsikhe-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) , url(../image/fartskhisis-tsikhe-partskhisi-fortress.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.fartskhisis-tsikhe-header h1{
+    margin-top: 100px;
+    font-size: 62px;
+}
 @media( max-width:900px){
     .row{
         flex-direction: column;
 
     }
-}   
+}
+
 @media( max-width:700px){
+    .about-us{
+        padding: 0px 20px;
+    } 
+    .about-us h1{
+        font-size: 16px;
+    }
+    .about-us p{
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+    .container{
+        padding: 0px;
+
+    }
+    .about1{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-content p{
+        padding: 0px;
+        font-size: 16px;
+    }
+    .about-content .read-more{
+        font-size: 16px;
+    }
     .row{
         flex-direction: column;
     }
